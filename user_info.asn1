@@ -1,0 +1,10 @@
+-- ASN.1 schema for user information
+UserInfoModule DEFINITIONS AUTOMATIC TAGS ::= BEGIN
+
+    UserInfo ::= SEQUENCE {
+        username   UTF8String,
+        email      UTF8String,
+        telephone  UTF8String
+    }
+
+END
